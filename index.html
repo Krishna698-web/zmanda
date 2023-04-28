@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img src="img.png" alt="" class="logo" />
+        <button id="hamburger">
+          <span class="bar-1"></span><span class="bar-2"></span
+          ><span class="bar-3"></span>
+        </button>
+        <ul id="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#footer">Careers</a></li>
+          <li><a href="#connect">Contact Us</a></li>
+          <button class="nav-button">Login / SignUp</button>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h1>Build your Future with us...</h1>
+        <button class="main_button">Join</button>
+      </div>
+      <div class="modal modal1">
+        <span></span><span></span><span></span><span></span><span></span
+        ><span></span><span></span><span></span><span></span><span></span
+        ><span></span><span></span><span></span><span></span><span></span
+        ><span></span><span></span><span></span><span></span><span></span
+        ><span></span><span></span><span></span><span></span><span></span
+        ><span></span><span></span><span></span><span></span><span></span
+        ><span></span><span></span><span></span><span></span><span></span
+        ><span></span>
+      </div>
+    </main>
+    <section id="products">
+      <h1>Products Listing</h1>
+      <div class="cards">
+        <div class="card">
+          <h2>Free</h2>
+          <div>
+            <p>1Gb Storage</p>
+            <p>Serverless</p>
+            <p>2Gb bandwidth</p>
+            <p>Contactless Data transfer</p>
+            <p>Lifetime access</p>
+            <span class="price">$0</span>
+          </div>
+          <button>Buy now</button>
+        </div>
+        <div class="card">
+          <h2>Monthly plan</h2>
+          <div>
+            <p>10Gb Storage</p>
+            <p>Serverless</p>
+            <p>64Gb bandwidth</p>
+            <p>Contactless Data transfer</p>
+            <p>Lifetime access</p>
+            <span class="price">$12</span>
+          </div>
+          <button>Buy now</button>
+        </div>
+        <div class="card">
+          <h2>Lifetime</h2>
+          <div>
+            <p>1Gb Storage</p>
+            <p>Serverless</p>
+            <p>Unlimited bandwidth</p>
+            <p>Contactless Data transfer</p>
+            <p>Lifetime access</p>
+            <span class="price">$124</span>
+          </div>
+          <button>Buy now</button>
+        </div>
+      </div>
+    </section>
+    <section id="connect">
+      <form>
+        <h1>Connect us</h1>
+        <div class="name">
+          <div class="field">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" required />
+          </div>
+          <div class="field">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" required />
+          </div>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" required />
+        </div>
+        <div class="field">
+          <label for="msg">Message</label>
+          <textarea
+            type="text"
+            id="msg"
+            placeholder="Any message for me..."></textarea>
+        </div>
+        <button>Submit</button>
+      </form>
+      <div class="modal modal2">
+        <span></span><span></span><span></span><span></span><span></span
+        ><span></span><span></span><span></span><span></span><span></span
+        ><span></span><span></span><span></span><span></span><span></span
+        ><span></span><span></span><span></span><span></span><span></span
+        ><span></span><span></span><span></span><span></span><span></span
+        ><span></span><span></span><span></span><span></span><span></span
+        ><span></span><span></span><span></span><span></span><span></span
+        ><span></span>
+      </div>
+    </section>
+
+    <div id="overlay">
+      <div class="backdrop"></div>
+      <div id="form">
+        <span class="plus" onclick="closeOverlay()">&plus;</span>
+        <h1>Sign up for Weekly updats (newsletter)</h1>
+        <input type="email" placeholder="example@gmail.com" />
+        <button onclick="closeOverlay()">SignUp</button>
+      </div>
+    </div>
+    <footer id="footer">
+      <ul>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </footer>
+
+    <div class="element"></div>
+  </body>
+  <script src="script.js"></script>
+</html>
